@@ -1,0 +1,139 @@
+input.form-control,select.form-control{
+    height: 40px !important;
+    padding: 10px 10px !important;
+}
+.nav>li>a:hover,.nav>li>a:active,.nav>li>a:focus{
+    background-color: transparent !important;
+    color: whitesmoke !important;
+    border: none !important;
+}
+.nav>li.nav-item>a.nav-link:hover,.nav>li.nav-item>a.nav-link:active,.nav>li.nav-item>a.nav-link:focus,.nav>li.nav-item>a.nav-link:checked{
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: none !important;
+}
+.btn-sm,.nav-tabs .nav-link.active{
+    background-color: #8089ff;
+}
+td,th{
+    vertical-align: middle !important;
+}
+.ui-hero .heading,.ui-pricing-card .ui-card .card-header .price .price,h1, .h1,.heading, h1, h2, h3, h4, h5, h6{
+    font-size: 1.5em !important;
+}
+.card.animate{
+    padding: 0;margin: 5px; left: 120px;
+}
+.card-deck .card{
+    width: 18rem;
+}
+@media (min-width: 1200px){
+    .ui-hero.hero-sm {
+        padding: 2rem 0 1rem 0;
+    }
+}
+@media (min-width: 100px) and (max-width: 950px){
+    .card.animate{
+        left: 0;
+    }
+    .card-deck .card{
+        width: 100%;
+    }
+}
+.ui-hero.hero-sm {
+    padding: 2rem 0 1rem 0;
+}
+body,.navbar a,.form-control{
+    font-size: 13px !important;
+}
+.btn.btn-sm, .btn-group-sm > .btn,.btn{
+    font-size: 11px !important;
+}
+.navbar .btn{
+    color: #ffffff;
+}
+#ui-api-docs .docs-section{
+    padding-bottom: 1em;
+}
+.multiselect{
+    background-color: #edeff2 !important;
+    width: 100% !important;
+}
+.multiselect,.multiselect-native-select .btn-group,.multiselect-native-select .multiselect-selected-text{
+    width: 100% !important;
+}
+.label-noTraite{
+    background-color: #8089ff;
+}
+/*stye des commentaire*/
+.inbox_msg {
+    clear: both;
+    overflow: hidden;
+}
+.top_spac{ margin: 2px 0 0;}
+
+.active_chat{ background:#cdcdcd;}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6% !important;
+}
+/* message*/
+.received_msg {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 20%;
+    margin: 0;
+}
+.received_withd_msg .content_message {
+    background: #cdcdcd none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #414c5a;
+    font-size: 13px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 10px;
+    margin: 5px 0 0;
+}
+.inbox_msg_title {
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+    background: #cdcdcd none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #333;
+    margin: 0;
+}
+.received_withd_msg { min-width: 30% ;}
+.mesgs {
+    float: left;
+    width: 90%;
+    margin: 0;
+}
+.msg_history {
+    overflow-y: auto;
+    margin: 0;
+}
+#ui-api-docs .docs-sidebar ul li a.active{
+    color: #8089ff;
+}
+.m-t-xxs .char-count {
+    margin-top: 10px;
+    color: #001d2e;
+    font-size: 11px;
+}
+.m-t-xxs .char-nbre {
+    color: #ff8765 !important;
+}
+.ui-card {
+    background-color: #f6f7f8;
+}
+.alert{
+    margin-bottom: 0;
+}
